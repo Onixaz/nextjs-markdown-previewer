@@ -1,6 +1,5 @@
 import { NextPage } from 'next'
 import React, { useState } from 'react'
-import ReactFCCtest from 'react-fcctest'
 import Preview from '../components/Preview'
 import Editor from '../components/Editor'
 import * as Utils from '../styles/utils'
@@ -13,8 +12,6 @@ const IndexPage: NextPage<IndexPageProps> = () => {
 
   return (
     <Utils.Container>
-      <ReactFCCtest />
-
       <Utils.Grid>
         <Utils.Wrapper>
           <Editor setMarkdown={setMarkdown} />
